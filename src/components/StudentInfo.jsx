@@ -21,7 +21,7 @@ export const StudentInfo = (props) => {
                 </td>
                 <td>
                     <div className="">
-                        {whatIsTheStats === true ? <div className=" text-white border-solid bg-green-500 text-center rounded-lg  md:w-20 ">Active</div> : <div className="text-white border-solid bg-red-600 text-center rounded-lg md:w-20 ">Inactive</div>}
+                        {whatIsTheStats === true ? <div className=" text-white border-solid bg-green-700 text-center rounded-lg  md:w-20 ">Active</div> : <div className="text-white border-solid bg-red-600 text-center rounded-lg md:w-20 ">Inactive</div>}
                     </div>
                 </td>
                 <td>

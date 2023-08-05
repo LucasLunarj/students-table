@@ -2,6 +2,6 @@ export default {
   plugins: {
     tailwindcss: {},
     autoprefixer: {},
-    base: "students-table",
+    base: "/students-table",
   },
 }

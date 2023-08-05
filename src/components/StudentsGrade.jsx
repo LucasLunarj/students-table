@@ -1,5 +1,5 @@
 import { students } from '../data/students'
-import { UserInfo } from './UserInfo'
+import { StudentInfo } from './StudentInfo'
 
 export const StudentsGrade = () => {
 
@@ -19,10 +19,10 @@ export const StudentsGrade = () => {
                         <th className='pl-3' scope="col"><p>Final Grade</p></th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody >
                     {
                         students.map((data) => {
-                            return <UserInfo
+                            return <StudentInfo
                                 key={data.id}
                                 avatarImg={data.avatar}
                                 name={data.name}

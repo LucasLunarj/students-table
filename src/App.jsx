@@ -4,7 +4,9 @@ export const App = () => {
 
   return (
     <div>
-      <StudentsGrade />
+      <div>
+        <StudentsGrade />
+      </div>
     </div>
   )
 }
